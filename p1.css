@@ -1,0 +1,37 @@
+body{
+    background:rgb(119, 119, 218);
+    font-family:Arial,sans-serif;
+}
+#form{
+    border:1px solid #ccc;
+    padding:20px;
+    background-color: #f9f9f9;
+
+}
+header{
+    background-color: blue;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+form{
+    display: grid;
+    gap:10px;
+}
+
+label, input{
+    margin:5px 0;
+}
+button{
+    background-color: #1e90ff;
+    color: #fff;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+}
+main{
+    max-width: 800px;
+    margin:0 auto;
+    padding:20px;
+}
