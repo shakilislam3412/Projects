@@ -1,0 +1,47 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/15/12/51/scissor-6798048_1280.jpg');
+    background-size: cover;
+    width:98%;
+    height: 88%;
+
+    font-family:Arial,sans-serif;
+}
+#form{
+    border:1px solid #ccc;
+    padding:20px;
+    background-color:rgba(255,255,255,0.75);
+
+}
+header{
+
+    color:rgba(255,255,255,0.75);
+    text-align:center;
+    padding:10px;
+}
+
+form{
+    display: grid;
+    gap:10px;
+    
+}
+
+label, input{
+    margin:10px 0;
+}
+button{
+    background-color: green;
+    color: #fff;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    text-align: center;
+}
+main{
+    max-width: 500px;
+    margin:0 auto;
+    padding:30px;
+   
+}
+.button{
+    position: relative;
+}
